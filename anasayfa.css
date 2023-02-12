@@ -1,0 +1,51 @@
+/* id lerin classlara, classların etiketlere üstünlüüğ vardır. bir obje hem id hem classa sahipse id ile belirtilen alan çalışır.*/
+/* .$(kelime) şeklindeki yazılar class belirtir. beirtilen elemanlara belirtilen işlemleri yaparlar. */
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+/* #$(kelime) şeklindeki yazılar id belirtir. beirtilen idlerdeki belirtilen işlemleri yaparlar. */
+#baslik {
+    -fx-font-size: 100px;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: #818181;
+    -fx-text-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-alignment:center;
+ }
+ #baslik1 {
+    -fx-font-size: 30px;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: #818181;
+    -fx-text-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-alignment:center;
+ }
+ #aciklama {
+   -fx-text-fill: FIREBRICK;
+   -fx-font-weight: bold;
+   -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+   -fx-alignment:center;
+   -fx-font-size: 30px;
+ }
+ #aButon {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#aButon:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+#kButon {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#a861b1, #5c3561);
+    
+}
+#kButon:hover {
+    -fx-background-color: linear-gradient(#5c3561, #a861b1);
+}
